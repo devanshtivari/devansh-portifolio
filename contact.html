@@ -163,8 +163,9 @@
         var subject=document.getElementById("subject");
         var message=document.getElementById("message");
         function myfunc(){
-            if (name==null || email==null || subject==null || message==null){
-                alert("Please enter all feilds")
+            if (name==null || email==null){
+                alert("Please enter all feilds");
+                return;
             }
             else{
             alert("Message sent successfully!! I will read it.")}
